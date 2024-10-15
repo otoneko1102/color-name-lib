@@ -5,9 +5,7 @@ declare module 'color-name-lib' {
     b: number;
   }
 
-  function colorName(color: string, language?: 'en' | 'ja' | 'cn'): string;
-  function colorName(color: [number, number, number], language?: 'en' | 'ja' | 'cn'): string;
-  function colorName(color: RGB, language?: 'en' | 'ja' | 'cn'): string;
+  function colorName(color: string | [number, number, number] | RGB, language?: 'en' | 'ja' | 'cn'): string;
 
   export default colorName;
 }

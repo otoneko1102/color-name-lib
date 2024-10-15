@@ -1,6 +1,6 @@
 {
   "name": "color-name-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Search for names of colors close to that color.",
   "main": "index.js",
   "types": "index.d.ts",
